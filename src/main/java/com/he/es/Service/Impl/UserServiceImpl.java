@@ -1,9 +1,11 @@
 package com.he.es.Service.Impl;
 
+import com.he.es.Service.UserService;
+
 /**
  * @author heningm
- * @description: TODO
+ * @description: UserSrvice实现类
  * @date 2019/9/720:58
  */
-public class UserServiceImpl {
+public class UserServiceImpl implements UserService{
 }

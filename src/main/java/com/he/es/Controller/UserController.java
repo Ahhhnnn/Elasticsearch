@@ -22,8 +22,9 @@ public class UserController {
     }
 
     @PostMapping("/addUser")
-    public String addUser(String username, String password, Integer age) {
+    public String addUser(String username, String password, Integer age,Integer id) {
         User user = new User();
+        user.setId(id);
         user.setUsername(username);
         user.setPassword(password);
         user.setAge(age);
